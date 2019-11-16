@@ -1,0 +1,106 @@
+
+#card{
+    margin-top: 2%;
+}
+#list{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 5%;
+}
+
+#btn{
+background: #000a38;
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2%;
+}
+#gender_selection{
+
+    text-align: left;
+    font-size: 16px;
+    color: #000a38;
+    font-weight:200;
+    margin-left: 1%;
+}
+#wallet_transaction{
+    text-align:left;
+    margin-left: 1%;
+}
+table{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    #mobile_view{
+        display: none;
+    }
+
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+
+    #mobile_view{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:620px) {
+
+
+    #desktop_view{
+        display: none;
+    }
+
+    #wallet_modal {
+        max-width: 100% !important;
+    }
+
+
+   #btn{
+       width: 100% !important;
+       border: none;
+   }
+
+    #list{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+    }
+
+    #gender_selection{
+
+        text-align: left;
+        font-size: 15px;
+        color: #000a38;
+        font-weight:200;
+        margin-left: 3%;
+    }
+
+    #wallet_transaction{
+        text-align:left;
+        margin-left: 3%;
+    }
+    #table_title{
+        color: #4c4c4c !important;
+        font-weight: bold !important;
+    }
+
+
+}

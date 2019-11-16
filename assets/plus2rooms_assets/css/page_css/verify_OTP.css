@@ -1,0 +1,63 @@
+#list{
+    margin-bottom: 7%;
+}
+
+#button_div{
+
+    margin-left: 2%;
+
+}
+
+#otp_card{
+    width: 550px;
+}
+
+.btn.btn-dark{
+    background: #ff007a;
+    border: none;
+    width: 150px;
+    height:40px;
+    cursor: pointer;
+}
+
+.btn.btn-success{
+    margin-left: 2%;
+    background: #000a38;
+    border: none;
+    width: 150px;
+    height:40px;
+    cursor: pointer;
+
+}
+
+#navigation{
+    margin-left: 5% !important;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:620px) {
+
+    #otp_card{
+        width: 97%;
+    }
+
+    .btn.btn-dark{
+        background: #ff007a;
+        border: none;
+        width: 125px;
+        height:40px;
+        cursor: pointer;
+    }
+
+    .btn.btn-success{
+        margin-left: 2%;
+        background: #000a38;
+        border: none;
+        width: 125px;
+        height:40px;
+        cursor: pointer;
+
+    }
+
+
+}

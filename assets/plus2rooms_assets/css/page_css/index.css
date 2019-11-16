@@ -1,0 +1,49 @@
+#search_div{
+    width: 523px !important;
+}
+#address{
+    width: 100% !important;
+}
+#date_picker{
+    margin-top: 20%;
+}
+input[type="date"]:not(.has-value):before{
+    color: lightgray;
+    content: attr(placeholder);
+}
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+input::-webkit-datetime-edit-year-field{
+    color: #767676;
+}
+input::-webkit-datetime-edit-month-field{
+    color: #767676;
+}
+
+#img{
+    width:540px !important;
+    height:410px !important;
+}
+
+
+
+@media only screen and (max-width:620px) {
+
+    #search_div{
+        width: 100% !important;
+    }
+    #address{
+        width: 100% !important;
+    }
+    #date_picker{
+        margin-top: 0%;
+    }
+    #img{
+        width:400px !important;
+        height:260px !important;
+    }
+
+
+}

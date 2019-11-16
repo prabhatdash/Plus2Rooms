@@ -1,0 +1,52 @@
+.checked {
+    color: #40a740!important;
+}
+#p2{
+    margin-top: 2%;
+}
+#hotel_list{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.card-img-top{
+    width:100%;
+    height:280px;
+}
+#hotel_name{
+   font-size: 25px;
+    font-weight:600;
+    color: #333333;
+}
+#hotel_address{
+    font-size: 15px;
+}
+table{
+    width: 100%;
+}
+#discount_price{
+   font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+#original_price{
+    font-family: 'Roboto', sans-serif;
+}
+#discount{
+    color: red;
+}
+.btn.btn-primary{
+    background: #000a38;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width:620px) {
+    .card-img-top{
+        width:100%;
+        height:250px;
+    }
+}
+

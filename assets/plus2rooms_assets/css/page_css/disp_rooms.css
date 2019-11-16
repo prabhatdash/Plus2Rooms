@@ -1,0 +1,130 @@
+#card{
+    margin-top: 2%;
+}
+#hotel_list{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 5%;
+}
+#room_image{
+    width: 360px;
+    height:250px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#room_image_box{
+    width: 380px;
+}
+#room_name{
+    font-size: 35px;
+    font-weight:600;
+    color: #333333;
+    padding-left: 10%;
+}
+#person_no{
+    font-size: 15px;
+    font-weight: 400;
+    color: #8f8f8f;
+    padding-left: 10%;
+}
+#amenities{
+    color:#000a38;
+    padding-left: 10%;
+    font-size: 25px;
+}
+#amenities_name{
+    font-size: 24px;
+}
+#discount_price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10%;
+    color: #333333;
+}
+#original_price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#discount{
+    color: red;
+}
+.btn.btn-primary{
+    background: #000a38;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 60px;
+    width:200px;
+    margin-right: 2%
+}
+
+@media only screen and (max-width:620px) {
+
+    #hotel_list{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+    }
+
+
+    #room_image{
+        width:186px !important;
+        height:152px !important;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    #room_image_box{
+        width:186px !important;
+    }
+    #room_name{
+        font-size: 12px;
+        font-weight:bold;
+        color: #333333;
+        padding-left: 0%;
+    }
+    #person_no{
+        font-size: 10px;
+        font-weight: 100;
+        color: #8f8f8f;
+        padding-left: 0%;
+    }
+    #amenities{
+        color:#000a38;
+        padding-left: 0%;
+        font-size: 10px;
+    }
+    #amenities_name{
+        font-size: 10px;
+    }
+    #discount_price{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 0%;
+        color: #333333;
+    }
+    #original_price{
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+    }
+    #discount{
+        color: red;
+    }
+    .btn.btn-primary{
+        background: #000a38;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        height: 40px;
+        width:50px;
+        font-size: 10px;
+        margin-right: 0%;
+
+    }
+    #bar{
+        display: none;
+    }
+}

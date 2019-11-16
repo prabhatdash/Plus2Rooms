@@ -1,0 +1,17 @@
+
+#main_card{
+    width: 40rem;
+    margin-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:620px) {
+
+    #main_card{
+        width: 98%;
+        margin-bottom: 5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+}

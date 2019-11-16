@@ -1,0 +1,111 @@
+
+#close_icon{
+    margin-left: 97%;
+    font-size:20px;
+    cursor: pointer;
+    color:#ff407b;
+}
+
+#title{
+
+    margin-left: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    color:#50ffdb;
+}
+#login_btn,#signup_btn{
+    margin-left: 2%;
+    width:200px;
+    height:50px;
+    background: #000a38;
+    color:#ffffff;
+    font-size: 16px;
+    border: none;
+    margin-right: 2%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 3%;
+}
+#google_login_btn{
+    margin-left: 2%;
+    width:200px;
+    height:50px;
+    background: #ff407b;
+    color:#ffffff;
+    font-size: 16px;
+    border: none;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 3%;
+}
+#forgot_pswd{
+    margin-left: 2%;
+    font-size: 15px;
+    cursor: pointer;
+}
+#creat_acnt{
+    color:#3c4cff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    #line_break{
+        display: none;
+    }
+    #mobile_or{
+        display: none;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+
+    #line_break{
+        display: none;
+    }
+    #mobile_or{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:620px) {
+
+    #login_image{
+        display: none;
+    }
+    #or{
+        display: none;
+    }
+    #bar{
+        display: none;
+    }
+    #creat_acnt{
+        margin-left: 2%;
+    }
+    #google_login_btn{
+
+        width: 100%;
+    }
+    #login_btn{
+        width: 100%;
+    }
+
+    #mobile_or{
+        margin-top: 4%;
+    }
+
+
+}
